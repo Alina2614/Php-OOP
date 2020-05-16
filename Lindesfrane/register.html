@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="body">
+    <div class="container ">
+        <div clss="form-container">
+        <div class="greeting">
+            <h2 id="h2">Lindisfarne Safari Park</h2>
+        </div>
+            <div class="form">
+                <form action="register.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="fullname" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Gender:</label><br>
+                        <input type="radio" name="gender" value="male"> Male 
+                        <input type="radio" name="gender" value="female"> Female 
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="postal_address">Postal address:</label>
+                        <input type="text" class="form-control" id="postal_address" name="postal_address">
+                    </div>
+                    <div class="form-group">
+                        <label for="post_code" style="color:#555555;">Post code:</label>
+                        <input type="text" class="form-control" id="post_code" name="post_code">
+                    </div>
+
+                    <button type="submit" name="submit" class="btn btn-default">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
